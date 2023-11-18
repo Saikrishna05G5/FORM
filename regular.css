@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-container{
+    max-width: 400px;
+    margin: 5px auto;
+    padding: 20px;
+    border :1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px grey;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    margin-top: 1%;
+    font-weight: bold;
+}
+input{
+width: 100%;
+padding: 8px;
+margin-top: 5px;
+}
+.error-message{
+    color: red;
+    margin-top: 5px;
+}
+button{
+    border:none;
+    background-color: #18188c;
+    color: white;
+    border-radius: 5px;
+    padding:5px;
+    
+}
+button:hover{
+    background-color:skyblue ;
+    transform: scaleX(1.2);
+}
